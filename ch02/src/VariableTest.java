@@ -16,5 +16,12 @@ public class VariableTest {
 
         System.out.println(age);
         System.out.println("age = " + age);
+        System.out.println("gender = " + gender);
+
+        byte b1 = 127;//不能为128（超出了byte变量的范围）
+    }
+    public static void main1(String[] args){
+        char gender = '女';
+        System.out.println("gender = " + gender);
     }
 }

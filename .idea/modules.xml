@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/ch03/ch03.iml" filepath="$PROJECT_DIR$/ch03/ch03.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch04/ch04.iml" filepath="$PROJECT_DIR$/ch04/ch04.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch05_array/ch05_array.iml" filepath="$PROJECT_DIR$/ch05_array/ch05_array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch06_oop1/ch06_oop1.iml" filepath="$PROJECT_DIR$/ch06_oop1/ch06_oop1.iml" />
       <module fileurl="file://$PROJECT_DIR$/project01/project01.iml" filepath="$PROJECT_DIR$/project01/project01.iml" />
     </modules>
   </component>

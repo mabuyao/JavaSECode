@@ -11,7 +11,7 @@ package com.xiaoma04.example.exer1;
 public class Person {
     //属性
     String name;
-    int age;
+    public int age;
     char gender;
 
     //方法

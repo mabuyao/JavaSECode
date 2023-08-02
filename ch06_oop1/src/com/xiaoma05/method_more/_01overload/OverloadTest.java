@@ -9,6 +9,10 @@ package com.xiaoma05.method_more._01overload;
  * @Version 1.0
  */
 public class OverloadTest {
+    public static void main(String[] args) {
+        OverloadTest test = new OverloadTest();
+        test.add(1,2,3);
+    }
     public void add(int i, int j){
 
     }

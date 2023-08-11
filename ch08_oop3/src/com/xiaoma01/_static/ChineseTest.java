@@ -34,6 +34,12 @@ public class ChineseTest {
         System.out.println(c2.nation);//CHN
 
         c1.show();
+
+        ChineseTest.test();
+    }
+
+    public static void test(){
+        System.out.println("This is a static test");
     }
 }
 

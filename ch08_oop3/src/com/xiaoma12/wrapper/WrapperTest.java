@@ -15,11 +15,36 @@ public class WrapperTest {
     （装箱）基本数据类型 ---> 包装类：① 使用包装类的构造器 ② （建议）调用包装类的valueOf(xxx xx)
     （拆箱）包装类 ---> 基本数据类型：调用包装类的xxxValue()
      */
+
+    @Test
+    public void test4(){
+        //自动装箱  JDK5.0之后
+        int num1 = 10;
+        Integer in1 = num1;//自动装箱
+        System.out.println(in1.toString());
+
+        Integer in2 = num1 + 1;
+
+        Boolean b1 = true;
+
+        Float f1 = 12.3f;
+
+        //自动拆箱
+
+        int num2 = in1;//自动拆箱
+
+        int num3 = in1 + 1;
+
+        //语法糖，本质上还是调用了xxxValue()
+    }
     @Test
     public void test3(){
         Account a1 = new Account();
         System.out.println(a1.isFlag1);//false
         System.out.println(a1.isFlag2);//null
+
+        System.out.println(a1.balance1);//0.0
+        System.out.println(a1.balance2);//null
     }
     @Test
     public void test2(){
@@ -65,4 +90,7 @@ public class WrapperTest {
 class Account{
     boolean isFlag1;
     Boolean isFlag2;
+
+    double balance1;
+    Double balance2;
 }

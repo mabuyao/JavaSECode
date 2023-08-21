@@ -20,18 +20,47 @@ public class OverrideTest {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        Number number = father.method4();
     }
 }
 
-class Father{
-    public void method1()throws IOException {
+class Father {
+    public void method1() throws IOException {
 
+    }
+
+    public void method2() {
+
+    }
+
+    public void method3(){
+
+    }
+
+    public Number method4(){
+        return null;
     }
 }
 
-class Son extends Father{
+class Son extends Father {
     @Override
-    public void method1()throws FileNotFoundException {
+    public void method1() throws FileNotFoundException {
 
+    }
+
+//    @Override
+//    public void method2() throws FileNotFoundException {
+//
+//    }
+
+    @Override
+    public void method3() throws RuntimeException{
+
+    }
+
+    @Override
+    public Integer method4(){
+        return null;
     }
 }

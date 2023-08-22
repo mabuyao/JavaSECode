@@ -71,6 +71,8 @@ public class TeamService {
                 throw new TeamException("团队中至多只能有三名程序员");
             }
         }
+
+        //代码如果能执行到这里，说明已经满足添加成员的条件了
         p.setStatus(Status.BUSY);
         p.setMemberId(counter++);
         team[total++] = p;

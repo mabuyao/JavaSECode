@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/ch09_exception/ch09_exception.iml" filepath="$PROJECT_DIR$/ch09_exception/ch09_exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch10_thread/ch10_thread.iml" filepath="$PROJECT_DIR$/ch10_thread/ch10_thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch11_api/ch11_api.iml" filepath="$PROJECT_DIR$/ch11_api/ch11_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch12_collection_map/ch12_collection_map.iml" filepath="$PROJECT_DIR$/ch12_collection_map/ch12_collection_map.iml" />
       <module fileurl="file://$PROJECT_DIR$/project01/project01.iml" filepath="$PROJECT_DIR$/project01/project01.iml" />
     </modules>
   </component>

@@ -3,6 +3,8 @@ package com.xiaoma03.date.jdk8;
 import org.junit.jupiter.api.Test;
 
 import java.time.*;
+import java.time.format.DateTimeFormatter;
+import java.time.temporal.TemporalAccessor;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -88,5 +90,21 @@ public class DateTimeTest {
         System.out.println(milliTime);//1692784717414
 
         System.out.println(new Date().getTime());
+    }
+
+    @Test
+    public void test5(){
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+
+        //格式化：日期 --> 字符串
+        LocalDateTime localDateTime = LocalDateTime.now();
+        String str1 = formatter.format(localDateTime);
+        System.out.println(str1);//2023-08-24 09:37:41
+
+        //解析：字符串 --> 日期
+        String str2 = "2023-08-24 09:37:41";
+        TemporalAccessor temporalAccessor = formatter.parse(str2);
+        LocalDateTime localDateTime1 = LocalDateTime.from(temporalAccessor);
+        System.out.println(localDateTime1);//2023-08-24T09:37:41
     }
 }

@@ -14,7 +14,7 @@
 4. 有限制条件的通配符
 
    List<? extends A> : 可以将List<A>或List<B>赋值给List<? extends A>。其中B类是A类的子类。
-   List <? super A> :可以将List<A>或List<B>赋值给List<? extends A>。其中B类是A类的父类。
+   List <? super A> :可以将List<A>或List<B>赋值给List<? super A>。其中B类是A类的父类。
 
 5. 有限制条件的统配符的读写操作（难、了解）
 技巧：开发中，遇到了带限制条件的通配符，在赋值时，如果没报错，那就正常使用。

@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/ch11_api/ch11_api.iml" filepath="$PROJECT_DIR$/ch11_api/ch11_api.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch12_collection_map/ch12_collection_map.iml" filepath="$PROJECT_DIR$/ch12_collection_map/ch12_collection_map.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch13_generic/ch13_generic.iml" filepath="$PROJECT_DIR$/ch13_generic/ch13_generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch14_datastructure/ch14_datastructure.iml" filepath="$PROJECT_DIR$/ch14_datastructure/ch14_datastructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/project01/project01.iml" filepath="$PROJECT_DIR$/project01/project01.iml" />
     </modules>
   </component>

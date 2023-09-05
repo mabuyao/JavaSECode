@@ -1,6 +1,8 @@
 package com.xiaoma06.otherstream;
 
 //import org.apache.commons.io.FileUtils;
+
+import org.apache.commons.io.FileUtils;
 import org.junit.Test;
 
 import java.io.*;
@@ -104,7 +106,7 @@ public class OtherStreamTest {
         File srcFile = new File("playgirl.jpg");
         File destFile = new File("playgirl_copy2.jpg");
 
-        //FileUtils.copyFile(srcFile,destFile);
+        FileUtils.copyFile(srcFile,destFile);
 
         System.out.println("¸´ÖÆ³É¹¦");
     }

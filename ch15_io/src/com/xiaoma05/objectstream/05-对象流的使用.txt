@@ -7,7 +7,7 @@ DataInputStream:将文件中保存的数据还原为内存中的基本数据类�
 
 2. 对象流及其作用
 2.1 API:
-ObjectInputSteam
+ObjectInputStream
 ObjectOutputStream
 
 2.2 作用:
@@ -21,7 +21,7 @@ ObjectOutputStream
 4.如下两个过程使用的流：
 序列化过程：使用ObjectOutputStream流实现。将内存中的Java对象保存在文件中或通过网络传输出去
 
-反序列化过程：使用ObjectInputSteam流实现。将文件中的数据或网络传输过来的数据还原为内存中的Java对象
+反序列化过程：使用ObjectInputStream流实现。将文件中的数据或网络传输过来的数据还原为内存中的Java对象
 
 
 5.自定义类要想实现序列化机制，需要满足：

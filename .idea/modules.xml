@@ -19,6 +19,8 @@
       <module fileurl="file://$PROJECT_DIR$/ch14_datastructure/ch14_datastructure.iml" filepath="$PROJECT_DIR$/ch14_datastructure/ch14_datastructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch15_io/ch15_io.iml" filepath="$PROJECT_DIR$/ch15_io/ch15_io.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch16_net/ch16_net.iml" filepath="$PROJECT_DIR$/ch16_net/ch16_net.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch17_reflect/ch17_reflect.iml" filepath="$PROJECT_DIR$/ch17_reflect/ch17_reflect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch18_features/ch18_features.iml" filepath="$PROJECT_DIR$/ch18_features/ch18_features.iml" />
       <module fileurl="file://$PROJECT_DIR$/project01/project01.iml" filepath="$PROJECT_DIR$/project01/project01.iml" />
     </modules>
   </component>

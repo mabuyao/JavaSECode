@@ -44,7 +44,7 @@ public class TCPTest3 {
         //客户端表明不再继续发送数据
         socket.shutdownOutput();
 
-        //5. 接收来着于服务器端的数据
+        //5. 接收来自于服务器端的数据
         InputStream is = socket.getInputStream();
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         byte[] buffer1 = new byte[5];
